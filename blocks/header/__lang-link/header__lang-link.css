@@ -11,6 +11,11 @@
   padding-left: 0;
 }
 
-.header__lang-link: last-of-type {
+.header__lang-link:hover {
+  opacity: 0.7;
+  transition: opacity 1s linear;
+}
+
+.header__lang-link:last-of-type {
     margin-right: 0;
 }
