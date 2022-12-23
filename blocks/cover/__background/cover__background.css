@@ -1,4 +1,7 @@
 .cover__background {
-    background-image: url(../../../images/cover-trains.jpg);
-    min-width: 1184px;
+    max-width: 1184px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
