@@ -1,6 +1,4 @@
 .cover__subtitle {
-  grid-column: 2;
-  grid-row: 2;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
@@ -10,7 +8,12 @@
   color: #FFFFFF;
   margin: 0;
   max-width: 360px;
-  justify-self: center;
   padding-top: 32px;
-  align-self: end;
+}
+
+@media (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
