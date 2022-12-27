@@ -1,6 +1,7 @@
 .cover__background {
   max-width: 1184px;
   text-decoration-line: none;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,21 +41,14 @@
     }
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 768px) {
     .cover__background {
       max-height: 480px;
       width: 100%;
     }
   }
 
-  @media (max-width: 767px) {
-    .cover__background {
-      max-height: 480px;
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 500px) {
+  @media (max-width: 425px) {
     .cover__background {
       max-height: 200px;
       width: 100%;
