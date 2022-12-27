@@ -17,7 +17,7 @@
 }
 
 .header__lang-link:last-of-type {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 767px) {

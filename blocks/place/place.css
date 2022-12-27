@@ -1,8 +1,8 @@
 .place {
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    gap: 48px 40px;
-    margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+  margin: 0 auto 80px;
 }
 
 .place:last-child {
