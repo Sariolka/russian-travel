@@ -12,4 +12,8 @@
 * Адаптивная верстка
 
 ## Ссылка на сайт:
+<<<<<<< HEAD
 https://sariolka.github.io/russian-travel/
+=======
+https://sariolka.github.io/russian-travel/
+>>>>>>> 243d223602ce660a79e40471af771718d32970c1
