@@ -37,20 +37,17 @@
   @media (max-width: 1024px) {
     .cover__background {
       min-height: 640px;
-      max-width: 100%;
     }
   }
 
   @media (max-width: 768px) {
     .cover__background {
       min-height: 480px;
-      width: 100%;
     }
   }
 
   @media (max-width: 425px) {
     .cover__background {
       min-height: 200px;
-      width: 100%;
     }
   }
