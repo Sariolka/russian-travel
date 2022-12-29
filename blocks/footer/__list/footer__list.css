@@ -8,5 +8,5 @@
 @media (max-width: 767px) {
   .footer__list {
     flex-direction: column;
-    }
+  }
 }

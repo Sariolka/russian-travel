@@ -1,4 +1,4 @@
-.cover__background {
+.cover__background {  
   max-width: 1184px;
   text-decoration-line: none;
   margin: auto;
@@ -17,37 +17,37 @@
 }
 
 .cover__background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2a2c2f;
-    opacity: .3;
-    z-index: -1;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: .3;
+  z-index: -1;
+}
 
-  .cover__background:hover::before {
-    background-color: #2a2c2f;
-    opacity: 0.8;
-    transition: opacity 0.6s linear;
-  }
+.cover__background:hover::before {
+  background-color: #2a2c2f;
+  opacity: 0.8;
+  transition: opacity 0.6s linear;
+}
 
-  @media (max-width: 1024px) {
-    .cover__background {
-      min-height: 640px;
-    }
+@media (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
   }
+}
 
-  @media (max-width: 768px) {
-    .cover__background {
-      min-height: 480px;
-    }
+@media (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
   }
+}
 
-  @media (max-width: 425px) {
-    .cover__background {
-      min-height: 200px;
-    }
+@media (max-width: 425px) {
+  .cover__background {
+    min-height: 200px;
   }
+}
