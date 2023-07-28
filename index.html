@@ -182,7 +182,22 @@
               </li>
             </ul>
           </nav>
-          <p class="footer__copyright">&copy;2022. Роза Бунина</p>
+          <div class="footer__right">
+            <p class="footer__copyright">&copy;
+              <div id="current_date_time_block"></div>
+              <script type="text/javascript">
+            
+                function date_time()
+                  {
+                    const current_datetime = new Date();
+                    const year = current_datetime.getFullYear();
+
+                    return year;
+                  }
+                    document.getElementById('current_date_time_block').innerHTML = date_time();
+              </script>
+              . Роза Бунина</p>
+          </div>
         </footer>
     </div>    
 </body>
