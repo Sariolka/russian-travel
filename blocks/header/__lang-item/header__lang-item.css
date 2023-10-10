@@ -1,5 +1,5 @@
 .header__lang-item {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10,8 +10,7 @@
   padding-left: 0;
   margin-right: 18px;
 }
-  
+
 .header__lang-item:last-child {
   margin-right: 0;
 }
-
